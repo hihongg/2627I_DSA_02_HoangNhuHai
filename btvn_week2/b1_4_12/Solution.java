@@ -1,4 +1,4 @@
-package btvn_week2;
+package btvn_week2.b1_4_12;
 
 import java.util.Scanner;
 
