@@ -1,0 +1,10 @@
++cây gốc 0 có : 0, 1, 2, 3
++cây gốc 4 có : 4, 5, 6, 7 (7 nối với 5 nối với 4)
++cây ? có : 8, 9        (size =2)
+
+*loại 1, 2, 3, 5, 6, 7, 9 do đã là con của các gốc khác
+*giả sử 8 là gốc=> gốc 8 có : 8, 9 (lấy)
+*giả sử 8 nối vào gốc 0: size gốc 0 > 2 => lấy
+*giả sử 8 nối vào gốc 4 => tương tự lấy
+
+=> ? có thể là 0, 4, 8
