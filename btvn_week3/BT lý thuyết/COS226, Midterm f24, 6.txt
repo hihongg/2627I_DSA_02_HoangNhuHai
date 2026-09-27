@@ -8,4 +8,4 @@ b)
 trong trường hợp xấu nhất khi enqueue là trong queue nó n phần tử thì khi đó phải duyệt từng phần tử và in ra
 => thời gian chạy là O(n)
 c)
-O(n)/n = O(1)
+O(n^2)/n = O(n)
