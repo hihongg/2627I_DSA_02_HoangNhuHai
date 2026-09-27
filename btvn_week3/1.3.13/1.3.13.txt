@@ -1,0 +1,2 @@
+với queue thêm từ 0 đến 9 rồi lấy hay vừa thêm vừa lấy thì kết quả auto là 0 1 2 3 4 5 6 7 8 9
+=>tất cả ngoài output trên thì đều sai =)
