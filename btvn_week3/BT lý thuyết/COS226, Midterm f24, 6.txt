@@ -1,0 +1,11 @@
+a)
+enqueue(0), enqueue(1), dequeue() queue sẽ có [0, 1] rồi lấy ra 0 còn [1] in 1
+enqueue(2), enqueue(3), dequeue() queue sẽ có [1, 2, 3] rồi lấy ra 1 còn [2, 3] in 2 3
+enqueue(4), enqueue(5), dequeue() queue sẽ có [2, 3, 4, 5] rồi lấy ra 2 còn [3, 4, 5] in 3 4 5
+enqueue(6), enqueue(7), dequeue() queue sẽ có [3, 4, 5, 6, 7] rồi lấy ra 3 và còn [4, 5, 6, 7] in 4 5 6 7
+=> in ra nội dung 1 2 3 3 4 5 4 5 6 7
+b)
+trong trường hợp xấu nhất khi enqueue là trong queue nó n phần tử thì khi đó phải duyệt từng phần tử và in ra
+=> thời gian chạy là O(n)
+c)
+O(n)/n = O(1)
